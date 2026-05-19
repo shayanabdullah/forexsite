@@ -37,49 +37,113 @@ const features = [
 
 const testimonials = [
   {
-    name: "Michael Chen",
-    role: "Professional Trader",
-    image: "/av1.png",
+    id: 1,
+    name: "Ethan Carter",
+    role: "Senior Crypto Trader",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
     content:
-      "The real-time market data and advanced trading features have significantly improved my trading performance. The platform's security measures give me peace of mind.",
+      "I've traded on multiple platforms over the last seven years, and this is by far the smoothest experience I've had. Fast execution, clean UI, and reliable analytics tools make a massive difference during volatile market conditions.",
   },
+
   {
-    name: "Sarah Johnson",
-    role: "Crypto Fund Manager",
-    image: null,
+    id: 2,
+    name: "Sophia Williams",
+    role: "Forex Portfolio Manager",
+    image: "https://randomuser.me/api/portraits/women/44.jpg",
     content:
-      "ForexTrade's institutional-grade tools have transformed our trading strategy. The API integration and automated features have saved us countless hours.",
+      "The automated trading features and detailed market insights helped our team optimize portfolio performance. The platform feels professional, stable, and built for serious traders.",
   },
+
   {
-    name: "David Wilson",
-    role: "Early Forex Investor",
-    image: "/av2.png",
+    id: 3,
+    name: "Daniel Kim",
+    role: "Independent Investor",
+    image: "https://randomuser.me/api/portraits/men/75.jpg",
     content:
-      "The customer support is exceptional, and the platform's intuitive design made getting started with crypto trading seamless. A game-changer for both beginners and pros.",
+      "As someone who started trading recently, I needed a platform that didn't feel overwhelming. Everything here feels intuitive while still offering advanced tools when you need them.",
   },
+
   {
-    name: "Emily Zhang",
-    role: "DeFi Developer",
-    image: "/av4.png",
+    id: 4,
+    name: "Olivia Martinez",
+    role: "Blockchain Analyst",
+    image: "https://randomuser.me/api/portraits/women/68.jpg",
     content:
-      "We've seen remarkable improvements in our trading efficiency since switching to ForexTrade. The smart order routing and liquidity aggregation are particularly impressive.",
+      "The real-time charts and market tracking tools are incredibly responsive. I especially appreciate the security layers and transparent transaction history.",
   },
+
   {
-    name: "James Rodriguez",
-    role: "Forex Security Expert",
-    image: "/av3.png",
+    id: 5,
+    name: "Noah Anderson",
+    role: "Crypto Fund Advisor",
+    image: "https://randomuser.me/api/portraits/men/41.jpg",
     content:
-      "The security features are robust and the regular updates keep us ahead of emerging threats. It's exactly what the Forex industry needed.",
+      "Managing high-volume trades became much easier after switching to this platform. Liquidity access, execution speed, and risk management tools are all top-tier.",
   },
+
   {
-    name: "Lisa Thompson",
-    role: "Portfolio Manager",
-    image: "/av1.png",
+    id: 6,
+    name: "Isabella Lee",
+    role: "Financial Strategist",
+    image: "https://randomuser.me/api/portraits/women/65.jpg",
     content:
-      "The platform's ability to handle complex trading strategies while maintaining simplicity in its interface is remarkable. It's been invaluable for our portfolio management.",
+      "What impressed me most is the balance between simplicity and power. Beginners can navigate it easily, while experienced traders still get advanced-level capabilities.",
+  },
+
+  {
+    id: 7,
+    name: "Lucas Bennett",
+    role: "Day Trader",
+    image: "https://randomuser.me/api/portraits/men/28.jpg",
+    content:
+      "The execution speed during peak trading hours is honestly impressive. I've experienced almost zero lag even during high market volatility.",
+  },
+
+  {
+    id: 8,
+    name: "Ava Thompson",
+    role: "FinTech Consultant",
+    image: "https://randomuser.me/api/portraits/women/22.jpg",
+    content:
+      "Most trading platforms feel cluttered and outdated. This one actually feels modern, polished, and designed for real traders instead of just looking flashy.",
+  },
+
+  {
+    id: 9,
+    name: "Mason Clark",
+    role: "Swing Trader",
+    image: "https://randomuser.me/api/portraits/men/53.jpg",
+    content:
+      "The analytics dashboard and portfolio tracking tools helped me identify patterns I was completely missing before. It genuinely improved my decision making.",
+  },
+
+  {
+    id: 10,
+    name: "Charlotte Davis",
+    role: "Investment Researcher",
+    image: "https://randomuser.me/api/portraits/women/50.jpg",
+    content:
+      "I appreciate how transparent the platform is with fees and transaction history. Everything feels secure and professionally engineered.",
+  },
+
+  {
+    id: 11,
+    name: "Benjamin Harris",
+    role: "Crypto Educator",
+    image: "https://randomuser.me/api/portraits/men/61.jpg",
+    content:
+      "I recommend this platform to many of my students because it balances simplicity with professional-grade tools. That's extremely rare in this industry.",
+  },
+
+  {
+    id: 12,
+    name: "Mia Robinson",
+    role: "Digital Asset Manager",
+    image: "https://randomuser.me/api/portraits/women/36.jpg",
+    content:
+      "The mobile experience is surprisingly good. I can monitor trades, adjust positions, and manage alerts without feeling limited compared to desktop.",
   },
 ];
-
 const footerLinks = [
   {
     _id: "001",
