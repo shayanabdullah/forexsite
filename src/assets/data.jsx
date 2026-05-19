@@ -97,5 +97,72 @@ const footerLinks = [
     links: ["Privacy Policy", "Terms of Services"],
   },
 ];
+const pricingPlans = [
+  {
+    id: 1,
+    title: "Basic Trader",
+    price: 0,
+    duration: "/month",
 
-export { footerLinks, testimonials, features };
+    description:
+      "Perfect for beginners starting their crypto journey",
+
+    features: [
+      "Basic spot trading",
+      "Market & limit orders",
+      "Basic market analysis",
+      "Email support",
+    ],
+
+    buttonText: "Start Trading",
+
+    popular: false,
+  },
+
+  {
+    id: 2,
+    title: "Pro Trader",
+    price: 29,
+    duration: "/month",
+
+    description:
+      "Advanced features for serious traders",
+
+    features: [
+      "Advanced trading tools",
+      "Margin trading up to 10x",
+      "Advanced technical analysis",
+      "Priority support",
+      "API access",
+    ],
+
+    buttonText: "Start Trading",
+
+    popular: true,
+    badge: "Most Popular",
+  },
+
+  {
+    id: 3,
+    title: "Institutional",
+    price: "Custom",
+    duration: "",
+
+    description:
+      "Enterprise-grade solutions for institutions",
+
+    features: [
+      "Custom trading solutions",
+      "Unlimited trading volume",
+      "OTC desk access",
+      "Dedicated account manager",
+      "Custom API integration",
+      "24/7 priority support",
+    ],
+
+    buttonText: "Start Trading",
+
+    popular: false,
+  },
+];
+export { footerLinks, testimonials, features, pricingPlans };

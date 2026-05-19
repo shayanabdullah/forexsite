@@ -2,6 +2,7 @@
 import FeaturesSection from "../sections/FeaturesSection";
 import HeroSection from "../sections/HeroSection";
 import LogoSlider from "../sections/LogoSlider";
+import PricingSection from './../sections/PricingSection';
 
 const HomePage = () => {
   return <div className="bg-black mx-auto">
@@ -13,6 +14,9 @@ const HomePage = () => {
 
     {/* Features */}
     <FeaturesSection/>
+
+    {/* Pricing */}
+    <PricingSection/>
   </div>;
 };
 
