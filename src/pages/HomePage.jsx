@@ -1,5 +1,7 @@
 // Section import
+import CtaSection from "../sections/CtaSection";
 import FeaturesSection from "../sections/FeaturesSection";
+import Footer from "../sections/Footer";
 import HeroSection from "../sections/HeroSection";
 import LogoSlider from "../sections/LogoSlider";
 import Testimonials from "../sections/Testimonials";
@@ -21,6 +23,12 @@ const HomePage = () => {
 
     {/* Testimonials */}
     <Testimonials/>
+
+    {/* CTA Section */}
+    <CtaSection/>
+
+    {/* Footer */}
+    <Footer/>
   </div>;
 };
 

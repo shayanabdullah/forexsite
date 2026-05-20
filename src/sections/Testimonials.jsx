@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { testimonials } from "../assets/data";
-
+import { motion} from 'motion/react'
 const Testimonials = () => {
   const marqueeRef = useRef();
   const handleMouseEnter = () => {
@@ -25,12 +25,12 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         {/* Title */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-normal mb-4 clash-display">
+          <motion.h2 initial={{ y: 70, opacity: 0 }}  whileInView={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.2,}} className="text-5xl font-normal mb-4 clash-display">
             Trusted by <span className="grad1 clash-display">Traders</span>
-          </h2>
-          <p className="text-zinc-400/90 text-lg">
+          </motion.h2>
+          <motion.p initial={{ y: 70, opacity: 0 }}  whileInView={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.3,}} className="text-zinc-400/90 text-lg">
             Join thousands of satisfied traders on ForexTrade
-          </p>
+          </motion.p>
         </div>
 
         {/* Marquee */}
@@ -58,17 +58,17 @@ const Testimonials = () => {
 
                     {/* name and role */}
                     <div className="">
-                      <h4 className="font-medium text-lg clash-display text-white/90">
+                      <motion.h4 initial={{ y: 70, opacity: 0 }}  whileInView={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: index * 0.1}} className="font-medium text-lg clash-display text-white/90">
                         {item.name}
-                      </h4>
-                      <p className="text-sm text-white/60">{item.role}</p>
+                      </motion.h4>
+                      <motion.p initial={{ y: 70, opacity: 0 }}  whileInView={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: index * 0.18,}} className="text-sm text-white/60">{item.role}</motion.p>
                     </div>
                   </div>
 
                   {/* Content */}
-                  <p className="text-white/70 leading-relaxed text-sm">
+                  <motion.p initial={{ y: 70, opacity: 0 }}  whileInView={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: index * 0.2,}} className="text-white/70 leading-relaxed text-sm">
                     {item.content}
-                  </p>
+                  </motion.p>
                 </div>
               ))}
             </div>
