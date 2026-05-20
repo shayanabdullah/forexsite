@@ -1,6 +1,6 @@
 # FOREXSITE — Modern Forex Landing Page
 
-![FOREXSITE Preview](./src/assets/image.png)
+![FOREXSITE Preview](/src/assets/image.png)
 
 A sleek and responsive forex landing page built with React and Vite.  
 Designed with modern UI principles, smooth layouts, and reusable components for high-performance marketing websites.
