@@ -1,64 +1,29 @@
-# FOREXSITE — Landing Page
+# FOREXSITE — Modern Forex Landing Page
 
-![Landing preview](./public/image.png)
+![FOREXSITE Preview](public/image.png)
 
-<!-- Fallback for viewers that resolve root paths differently -->
+A sleek and responsive forex landing page built with React and Vite.  
+Designed with modern UI principles, smooth layouts, and reusable components for high-performance marketing websites.
 
-![Landing preview (root)](/image.png)
+## Features
 
-Beautiful, responsive landing page built with React + Vite. This repository contains a minimal, fast starter for marketing sites and product landing pages with Hot Module Replacement (HMR), sensible ESLint rules, and a component-driven structure.
-
-## Highlights
-
-- Clean, modern UI components for hero, features, testimonials, and pricing
-- Fast dev experience with Vite and React
-- Easily customizable sections and assets
+- Responsive modern landing page
+- Clean hero section with CTA
+- Reusable React components
+- Fast performance with Vite
+- Tailwind CSS styling
+- Easy customization
 
 ## Tech Stack
 
 - React
 - Vite
-- Tailwind css
-- Plain CSS (see `index.css`)
+- Tailwind CSS
+- CSS3
 
-## Quick Start
+## Getting Started
 
-Prerequisites: Node.js (16+ recommended) and npm or yarn.
-
-Install dependencies:
+Clone the repository:
 
 ```bash
-npm install
-```
-
-Run the development server:
-
-```bash
-npm run dev
-```
-
-Build for production:
-
-```bash
-npm run build
-```
-
-Preview the production build locally:
-
-```bash
-npm run preview
-```
-
-## Project Structure
-
-- `src/` — React source files and components
-- `public/` — static assets and fonts
-- `index.html` — single-page entry
-
-## Contributing
-
-Contributions are welcome. Open issues for bugs or feature requests and create PRs for enhancements.
-
----
-
-Made with care for a fast marketing landing experience.
+git clone <your-repo-url>
