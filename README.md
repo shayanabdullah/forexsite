@@ -2,6 +2,10 @@
 
 ![Landing preview](./public/image.png)
 
+<!-- Fallback for viewers that resolve root paths differently -->
+
+![Landing preview (root)](/image.png)
+
 Beautiful, responsive landing page built with React + Vite. This repository contains a minimal, fast starter for marketing sites and product landing pages with Hot Module Replacement (HMR), sensible ESLint rules, and a component-driven structure.
 
 ## Highlights
