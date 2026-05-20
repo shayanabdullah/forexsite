@@ -1,6 +1,6 @@
 # FOREXSITE — Landing Page
 
-[Landing preview](./public/image.png)
+![Landing preview](./public/image.png)
 
 Beautiful, responsive landing page built with React + Vite. This repository contains a minimal, fast starter for marketing sites and product landing pages with Hot Module Replacement (HMR), sensible ESLint rules, and a component-driven structure.
 
@@ -14,6 +14,7 @@ Beautiful, responsive landing page built with React + Vite. This repository cont
 
 - React
 - Vite
+- Tailwind css
 - Plain CSS (see `index.css`)
 
 ## Quick Start
@@ -49,7 +50,6 @@ npm run preview
 - `src/` — React source files and components
 - `public/` — static assets and fonts
 - `index.html` — single-page entry
-
 
 ## Contributing
 
