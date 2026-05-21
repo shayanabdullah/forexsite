@@ -32,7 +32,7 @@ const LogoSlider = () => {
             src={logo}
             alt="logo"
             className="h-8 object-contain "
-            key={index}
+            key={`${logo}-${index}`}
             initial={{
                 opacity: 0.5
             }}

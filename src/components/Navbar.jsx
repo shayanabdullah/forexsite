@@ -70,6 +70,7 @@ const Navbar = () => {
         
                <a
                 href={'#' + item}
+                key={index}
                 onClick={()=> setIsMenuOpen(false)}
                 className="text-sm text-zinc-300/90 hover:text-indigo-300 hover:-translate-y-1 duration-300 ease-out transition-all block capitalize"
               >

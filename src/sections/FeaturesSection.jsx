@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { features } from "../assets/data";
 import { motion, AnimatePresence } from "motion/react";
-import { p } from "framer-motion/client";
 
 const FeaturesSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -58,9 +57,7 @@ const FeaturesSection = () => {
           {/* Left : Tabs */}
           <div className="md:col-span-5 space-y-3">
             <div className="col w-full h-auto p-0 space-y-3 ">
-              {features.map((item, index) => (
-                <>
-                  {/* Item */}
+              {features.map((item, index) => ( 
                   <motion.div
                     key={index}
                     onMouseEnter={() => handleHover(index)}
@@ -87,7 +84,7 @@ const FeaturesSection = () => {
                       </p>
                     </div>
                   </motion.div>
-                </>
+                
               ))}
             </div>
           </div>

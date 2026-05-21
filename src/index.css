@@ -2,6 +2,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=JetBrains+Mono:wght@300;400&display=swap');
+
 /* Tailwind V4.0 */
 @import "tailwindcss";
 
@@ -19,11 +21,14 @@ html {
   user-select: none;
 }
 
+
+
 /* FONTS */
 
 /* Custom Fonts */
 @font-face {
   font-family: "poppins";
+  font-family: 'JetBrains Mono', monospace;
   src: url(/fonts/Poppins-Regular.ttf);
 }
 
